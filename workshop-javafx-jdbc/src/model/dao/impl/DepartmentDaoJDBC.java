@@ -71,7 +71,7 @@ public class DepartmentDaoJDBC implements DepartmentDao {
 	}
 
 	@Override
-	public void deleteById(Integer id) {
+	public void deleteById(Integer id) { 
 
 		PreparedStatement st = null;
 		try {
