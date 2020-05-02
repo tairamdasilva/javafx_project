@@ -173,7 +173,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 			if (service == null) {
 				throw new IllegalStateException("Service was null");
 			}
-			try { 
+			try {
 				service.remove(obj);
 				updateTableView();
 			} catch (DbIntegrityException e) {
